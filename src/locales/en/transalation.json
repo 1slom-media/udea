@@ -1,0 +1,59 @@
+{
+  "Header": {
+    "0": "Programs",
+    "1": "University",
+    "2": "News and Events",
+    "3": "Social life",
+    "4": "International",
+    "5": "UNDERGRADUATE",
+    "6": "POSTGRADUATE",
+    "7": "Apply now"
+  },
+  "Footer": {
+    "0": "Corporate responsibility",
+    "1": "University",
+    "2": "News and Events",
+    "3": "Campus life",
+    "4": "Scholarships",
+    "5": "International relations",
+    "6": "Lorem ipsum",
+    "7": "Lorem ipelit",
+    "8": "Copyright © 2023 UDEA. All rights reserved."
+  },
+  "HomeHero": {
+    "0": "Admission Open: Apply Now for the Best Education!",
+    "1": "More",
+    "2": "Creating opportunities for the youth of Uzbekistan to receive education.Creating opportunitie",
+    "3": "See more events"
+  },
+  "Categories": {
+    "0": "UNDERGRADUATE",
+    "1": "Empowering Entrepreneurs to Cultivate Profitable Ventures",
+    "2": "Agribusiness and Investment Activity",
+    "3": "Learn the Fundamentals of Financial Planning, Trading, and Investment Strategies",
+    "4": "Finance and Financial Technologies",
+    "5": "Postgraduate",
+    "6": "Strategies, Operations and Performance",
+    "7": "Management of Commercial Banks"
+  },
+  "Graduate": {
+    "0": "Graduate with a world-class UK degree in Uzbekistan"
+  },
+  "Study": {
+    "0": "Study in Uzbekistan",
+    "1": "and graduate with a",
+    "2": "degree",
+    "3": "Coventry University",
+    "4"  : "Delivering quality teaching and learning, outstanding student satisfaction.",
+    "5" : "Coventry University is ranked 38th in UK",
+    "6" : "Guardian University Guide 2022",
+    "7" : "5 QS Stars Overall Rating",
+    "8" : "QS Stars University Ratings",
+    "9"  :"Shortlisted for University of the Year",
+    "10"  :"The Times and Sunday Times Good University Guide 2021",
+    "11" : "Top 100 in the World for “International Outlook”",
+    "12"  : "Times Higher Education World University Rankings 2022",
+    "13"  :"See about Coventry University",
+    "14" : "UK"
+  }
+}

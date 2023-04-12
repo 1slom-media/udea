@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Stolzl";
+  src: url(./fonts/Stolzl-Book.woff);
+}
+@font-face {
+  font-family: "Stolzl";
+  src: url(./fonts/Stolzl-Book.woff2);
+}
+@font-face {
+  font-family: "Stolzl";
+  src: url(./fonts/Stolzl-Light.woff);
+}
+@font-face {
+  font-family: "Stolzl";
+  src: url(./fonts/Stolzl-Light.woff2);
+}
+@font-face {
+  font-family: "Stolzl";
+  src: url(./fonts/Stolzl-Medium.woff);
+}
+@font-face {
+  font-family: "Stolzl";
+  src: url(./fonts/Stolzl-Medium.woff2);
+}
+@font-face {
+  font-family: "Stolzl";
+  src: url(./fonts/Stolzl-Regular.woff);
+}
+@font-face {
+  font-family: "Stolzl";
+  src: url(./fonts/Stolzl-Regular.woff2);
+}
+@font-face {
+  font-family: "ALS Agrofont";
+  src: url(./fonts/All/ALSAgrofont-Black_0.7.otf);
+}
+@font-face {
+  font-family: "ALS Agrofont";
+  src: url(./fonts/All/ALSAgrofont-Bold_0.7.otf);
+}
+@font-face {
+  font-family: "ALS Agrofont";
+  src: url(./fonts/All/ALSAgrofont-BoldExpanded_0.7.otf);
+}
+@font-face {
+  font-family: "ALS Agrofont";
+  src: url(./fonts/All/ALSAgrofont-Medium_0.7.otf);
+}
+
+body {
+  font-family: "Stolzl", "ALS Agrofont" !important;
+}

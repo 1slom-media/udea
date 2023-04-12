@@ -1,0 +1,256 @@
+.WrapperBack {
+  background: #fafbfc;
+  padding: 5% 0;
+}
+.Wrapper h2:hover {
+  text-decoration: underline !important;
+}
+.Wrapper h3:hover {
+  text-decoration: underline !important;
+}
+.Wrapper p:hover {
+  text-decoration: underline !important;
+}
+.Wrapper a:hover {
+  text-decoration: underline !important;
+}
+
+.WrapperBack h2 {
+  text-align: center;
+  font-size: 77px;
+  padding-bottom: 2%;
+  letter-spacing: 1px;
+  font-family: "ALS Agrofont";
+  font-style: normal;
+  font-weight: 700;
+}
+.Wrapper p {
+  font-size: 36px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  margin: 0 auto;
+  width: 90%;
+  margin-bottom: 5%;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+.bigCards {
+  width: 50%;
+  background-color: white;
+  border-radius: 30px;
+}
+.bigCards img {
+  width: 100%;
+  height: 780px;
+  border-start-end-radius: 30px;
+  border-start-start-radius: 30px;
+}
+.bigCards h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+}
+.miniCards {
+  width: 46%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between !important;
+  border-radius: 30px;
+}
+.imgDiv {
+  /* width: 90%; */
+  height: 300px;
+  text-align: center;
+  border-start-end-radius: 30px;
+  border-start-start-radius: 30px;
+}
+.imgDivs {
+  /* width: 90%; */
+  height: 300px;
+  text-align: center;
+  border-start-end-radius: 30px;
+  border-start-start-radius: 30px;
+}
+.miniCards img {
+  width: 100%;
+  height: 100%;
+}
+.card:nth-child(2) {
+  margin-top: 9%;
+}
+.miniCards .card {
+  background-color: white;
+  border-radius: 30px;
+}
+.card img {
+  border-start-end-radius: 30px;
+  border-start-start-radius: 30px;
+}
+
+.Wrapper h3 {
+  font-size: 51px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+}
+.textDiv {
+  padding: 8% 5% 8%;
+}
+.bottonCards {
+  display: flex;
+  margin-top: 5%;
+  justify-content: space-between;
+}
+.cardd {
+  width: 48%;
+  background-color: white;
+  border-end-end-radius: 30px;
+  border-end-start-radius: 30px;
+}
+.bottonCards img {
+  width: 100%;
+  height: 500px;
+  border-start-end-radius: 30px;
+  border-start-start-radius: 30px;
+}
+
+.cardd div {
+  padding: 8%;
+}
+
+.cardd h3 {
+  font-size: 51px;
+  width: 90%;
+}
+
+@media screen and (max-width: 980px) {
+  .cardd h3 {
+    font-size: 25px;
+  }
+  .Wrapper h3 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .imgDiv,
+  .imgDivs {
+    height: 200px;
+  }
+  .cards h3 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 875px) {
+  .cards,
+  .miniCards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .card,
+  .bigCards {
+    width: 70%;
+  }
+  .miniCards {
+    width: 100%;
+    margin-top: 5%;
+  }
+  .bottonCards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .cardd {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Wrapper h2 {
+    font-size: 30px;
+  }
+  .card,
+  .bigCards {
+    width: 90%;
+  }
+  .cardd {
+    width: 90%;
+  }
+  .Wrapper h2 {
+    font-size: 39px;
+  }
+  .Wrapper p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .WrapperBack {
+    padding-top: 25%;
+  }
+  .imgDiv {
+    display: none;
+  }
+  .imgDivs {
+    display: none;
+  }
+  .Wrapper img {
+    display: none;
+  }
+  .textDiv {
+    background: #004b79cc;
+    color: white;
+    margin: 70% 0 20%;
+  }
+  .textDiv h3 {
+    font-size: 28px;
+  }
+  .cardd div {
+    background: #004b79cc;
+    color: white;
+    margin: 70% 0 20%;
+  }
+  .cardd div h3 {
+    font-size: 28px;
+  }
+  .bigCards {
+    background-image: url(../../../assets/campus/hall.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .card:nth-child(1) {
+    background-image: url(../../../assets/campus/lab.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .card:nth-child(2) {
+    background-image: url(../../../assets/campus/libary.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5%;
+  }
+  .cardd:nth-child(1) {
+    background-image: url(../../../assets/campus/comp.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+  }
+  .cardd:nth-child(2) {
+    background-image: url(../../../assets/campus/table.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    margin-top: 5%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Wrapper h2 {
+    font-size: 30px;
+  }
+}

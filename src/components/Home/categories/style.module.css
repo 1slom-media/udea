@@ -1,0 +1,229 @@
+.h2 {
+  margin: 0;
+}
+.Wrapper h2:hover {
+  text-decoration: underline !important;
+}
+.Wrapper h3:hover {
+  text-decoration: underline !important;
+}
+.Wrapper p:hover {
+  text-decoration: underline !important;
+}
+.Wrapper a:hover {
+  text-decoration: underline !important;
+}
+
+.Wrapper {
+  margin: 0 auto;
+  padding: 5% 0;
+  border-end-end-radius: 30px;
+  border-end-start-radius: 30px;
+}
+
+.Bccards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+.h2subtext {
+  font-family: "ALS Agrofont";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px !important;
+  width: 40% !important;
+  margin: 0 auto;
+  font-weight: 900 !important;
+  padding: 5% 0;
+  text-align: center;
+}
+.card,
+.cardEnglish,
+.Lastcard {
+  width: 43%;
+}
+.card {
+  border: 1px solid white;
+  background-color: white;
+  padding: 3%;
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px 0px #dedede;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between !important;
+}
+.Lastcard {
+  border: 1px solid white;
+  background-color: white;
+  padding: 3%;
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px 0px #dedede;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between !important;
+  margin-top: 2%;
+}
+.card,
+.Lastcard p {
+  font-size: 25px;
+  margin: 3% 0 0;
+  line-height: 35px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+}
+
+.lang {
+  display: flex;
+  justify-content: space-between;
+  color: #656565;
+}
+.h3subtext {
+  font-size: 45px;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "ALS Agrofont";
+  font-style: normal;
+  font-weight: bold !important;
+  line-height: 55px !important;
+}
+.headerTexts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5%;
+}
+.headerTexts div {
+  width: 42.5%;
+  padding: 0% 5% 1% 0;
+}
+.headerTexts div h2 {
+  font-size: 35px;
+  color: #005ba3;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+}
+.subtext {
+  color: #005ba3;
+  font-size: 35px;
+  padding-bottom: 4%;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.buttons p {
+  background: #e5eeff;
+  color: #0066cc;
+  padding: 10px 11px 8px;
+  font-size: 35px;
+  border-radius: 50%;
+  font-size: 30px !important;
+}
+
+.subtextNone {
+  color: transparent;
+  font-size: 35px;
+  padding-bottom: 4%;
+}
+
+@media screen and (max-width: 1115px) {
+  .h3subtext {
+    font-size: 30px;
+  }
+  .Wrapper {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 1115px) {
+  .text {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 745px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100%;
+  }
+  .card,
+  .cardEnglish {
+    width: 60%;
+  }
+  .subtext {
+    margin-top: 8%;
+  }
+}
+.h2Media {
+  display: none;
+}
+@media screen and (max-width: 500px) {
+  .cards,
+  .Bccards {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+  }
+  .card,
+  .cardEnglish,
+  .Lastcard {
+    width: 90%;
+    padding: 5% 5%;
+    margin-top: 5% !important;
+  }
+  .h2subtext {
+    font-weight: bold !important;
+    font-size: 30px !important;
+    width: 100% !important;
+  }
+  .headerTexts {
+    display: none;
+  }
+  .h2Media {
+    display: block;
+    font-size: 15px !important;
+    color: #005ba3;
+    font-weight: 500;
+    margin-top: 10% !important;
+  }
+  .h3subtext {
+    font-size: 28px;
+    line-height: 35px !important;
+  }
+  .Lastcard p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 8% 0;
+  }
+  .buttons p {
+    margin: 0;
+  }
+  .card p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 8% 0;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .h2subtext {
+    width: 100%;
+  }
+}

@@ -1,0 +1,161 @@
+.sliderItem {
+  /* border: 1px solid white; */
+  border-radius: 30px;
+  /* background: white; */
+  width: 95%;
+  margin-left: auto;
+  padding: 5%;
+  border-radius: 30px;
+}
+.Wrapper h2:hover {
+  text-decoration: underline !important;
+}
+.Wrapper h3:hover {
+  text-decoration: underline !important;
+}
+.Wrapper p:hover {
+  text-decoration: none !important;
+}
+.Wrapper a span:hover {
+  text-decoration: underline !important;
+}
+.sliderItem img {
+  width: 100%;
+  height: 50%;
+  border-start-start-radius: 30px;
+  border-start-end-radius: 30px;
+}
+.texts {
+  background-color: #fafbfc;
+  padding: 8%;
+  border-end-end-radius: 30px;
+  border-end-start-radius: 30px;
+}
+.texts h2 {
+  font-size: 38px;
+  font-family: "ALS Agrofont";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.texts p {
+  margin: 5% 0 0;
+  font-size: 26px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  width: 80%;
+}
+.Sliderback {
+  background: #e3eeff;
+  padding: 5% 0;
+}
+.HeaderBack {
+  padding: 5% 0;
+  text-align: center;
+}
+.Wrapper h2 {
+  font-size: 77px;
+  margin-bottom: 2%;
+  font-family: "ALS Agrofont";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.Wrapper p {
+  margin: 0.5% 0;
+  font-size: 25px;
+  width: 60%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  margin: 0 auto;
+  line-height: 40px;
+}
+.buttons {
+  /* width: 80%; */
+  margin-top: 4% !important;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.buttons button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #0066cc;
+  width: 48%;
+  padding: 0% 5%;
+  font-size: 44px;
+  border-radius: 20px;
+  font-weight: bold;
+  border: 1px solid #fafbfc;
+  font-family: "ALS Agrofont";
+  font-style: normal;
+  font-weight: 700;
+  background: #e5eeff;
+}
+@media screen and (max-width: 570px) {
+  .Wrapper h2 {
+    font-size: 30px;
+  }
+  .Wrapper p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .Wrapper h2 {
+    font-size: 20px;
+  }
+  .Wrapper p {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .sliderItem {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Wrapper h2 {
+    font-size: 39px;
+  }
+  .Wrapper p {
+    font-size: 18px;
+    line-height: 35px;
+    width: 100%;
+    margin-top: 5%;
+  }
+  .sliderItem {
+    width: 90%;
+  }
+  .sliderItem h2 {
+    font-size: 23px;
+  }
+  .sliderItem p {
+    font-size: 14px;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+  }
+  .buttons button {
+    width: 95%;
+    border-radius: 30px;
+    font-size: 22px;
+    margin-bottom: 4%;
+  }
+}
+@media screen and (max-width: 355px) {
+  .Wrapper h2 {
+    font-size: 30px;
+  }
+  .Wrapper p {
+    width: 90%;
+  }
+}

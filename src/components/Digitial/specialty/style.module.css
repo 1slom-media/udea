@@ -1,0 +1,275 @@
+.WrapperBack {
+  background: #e3eeff;
+  padding: 3%;
+}
+.Wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+}
+.Wrapper h2:hover {
+  text-decoration: underline !important;
+}
+.Wrapper h3:hover {
+  text-decoration: underline !important;
+}
+.Wrapper p:hover {
+  text-decoration: underline !important;
+}
+.Wrapper a:hover {
+  text-decoration: underline !important;
+}
+.megacard {
+  background-color: white;
+  width: 53%;
+  padding: 5%;
+  border-radius: 30px;
+}
+.minicard {
+  background-color: white;
+  width: 25%;
+  padding: 5%;
+  border-radius: 30px;
+  position: sticky;
+  top: -195%;
+  bottom: -100%;
+}
+.megacard .about h2 {
+  font-size: 66px;
+  margin: 0;
+  font-family: "ALS Agrofont";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+/* .scroll {
+  position: fixed;
+  margin-top: 5%;
+  left: 0;
+  right: 0;
+  top: 0;
+} */
+.subtext {
+  font-size: 36px;
+  line-height: 30px;
+  line-height: 50px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+}
+.megacard .about ul {
+  margin-top: 3%;
+}
+.about ul li {
+  border-bottom: 1px solid #c7c7c7;
+  padding: 5% 0 3%;
+}
+.about ul li div {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(90.3deg, #0066cc 0%, #3685e8 99.74%);
+  border-radius: 50%;
+}
+.about ul li p {
+  font-size: 40px;
+  line-height: 60px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  color: #7e7e7e;
+}
+.about ul li p span {
+  color: #005ba3;
+}
+.content {
+  margin-top: 5%;
+}
+.content h2 {
+  font-size: 66px;
+  font-family: "ALS Agrofont";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.content ul {
+  margin-top: 5%;
+}
+.content ul li {
+  padding: 3% 0 5%;
+}
+.content ul li:nth-child(1) {
+  border-bottom: 1px solid #c7c7c7;
+}
+.content ul li h3 {
+  color: #0066cc;
+  font-size: 55px;
+  font-family: "ALS Agrofont";
+  font-style: normal;
+  font-weight: 700;
+}
+.content ul li p {
+  font-size: 36px;
+  line-height: 50px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  margin: 2% 0 0 0;
+}
+.after {
+  margin-top: 5%;
+}
+.after h2 {
+  font-size: 66px;
+  font-family: "ALS Agrofont";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 5%;
+}
+.after p {
+  font-size: 36px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 50px;
+}
+.after .categories {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0% 4%;
+}
+.categories ul {
+  list-style-type: disc !important;
+  color: #0066cc;
+}
+.categories ul li {
+  font-size: 45px;
+  margin-top: 8%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+}
+.minicard ul li {
+  border-bottom: 1px solid #c7c7c7;
+  padding-bottom: 15%;
+  margin-bottom: 10%;
+}
+.minicard ul li:nth-child(7) {
+  border-bottom: none;
+  margin: 0;
+  padding: 0;
+}
+.minicard ul li h2 {
+  font-size: 50px;
+  font-family: "ALS Agrofont";
+  font-style: normal;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.minicard ul li p {
+  color: #7e7e7e;
+  font-size: 36px;
+  margin: 5% 0 0 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+}
+@media screen and (max-width: 1110px) {
+  .minicard h2 {
+    font-size: 25px !important;
+  }
+}
+@media screen and (max-width: 850px) {
+  .Wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .megacard {
+    width: 80%;
+  }
+  .minicard {
+    width: 80%;
+    margin-top: 5%;
+  }
+  .minicard h2 {
+    font-size: 45px !important;
+    padding-bottom: 0%;
+  }
+  .minicard ul li {
+    padding-bottom: 10%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .minicard {
+    position: static !important;
+    width: 90%;
+  }
+  .megacard {
+    width: 93%;
+  }
+  .minicard ul li h2 {
+    font-size: 22px !important;
+  }
+  .minicard ul li p {
+    font-size: 18px;
+    color: black;
+    padding-bottom: 3%;
+  }
+  .minicard ul li {
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+  }
+  .megacard {
+    width: 90%;
+    margin-top: 4%;
+  }
+  .megacard .about h2 {
+    font-size: 28px;
+  }
+  .subtext {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .about ul li div {
+    width: 50px;
+    height: 50px;
+  }
+  .about ul li p {
+    font-size: 23px;
+    line-height: 35px;
+  }
+  .content h2 {
+    font-size: 28px;
+  }
+  .content h3 {
+    font-size: 22px !important;
+  }
+  .content p {
+    font-size: 18px !important;
+    line-height: 35px !important;
+  }
+  .after h2 {
+    font-size: 28px;
+  }
+  .after p {
+    font-size: 18px;
+    line-height: 35px;
+  }
+  .categories ul li {
+    font-size: 23px;
+  }
+  .categories {
+    display: flex;
+    flex-direction: column;
+    justify-content: start !important;
+    align-items: flex-start !important;
+  }
+  .categories ul {
+    margin-left: 3%;
+  }
+}

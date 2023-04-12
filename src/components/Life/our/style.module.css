@@ -1,0 +1,67 @@
+.Wrapper {
+  padding: 5% 0;
+  text-align: center;
+}
+
+.Wrapper h2 {
+  width: 50%;
+  text-align: start;
+  margin: 0 auto;
+  padding-bottom: 6%;
+  font-size: 40px;
+  color: #a9b0b8;
+  font-family: "ALS Agrofont";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 1px;
+}
+.Wrapper h2:hover {
+  text-decoration: underline !important;
+}
+.Wrapper h3:hover {
+  text-decoration: underline !important;
+}
+.Wrapper p:hover {
+  text-decoration: underline !important;
+}
+.Wrapper a:hover {
+  text-decoration: underline !important;
+}
+
+.Wrapper h2 span {
+  color: #0066cc;
+}
+.Wrapper iframe {
+  border-radius: 30px;
+  width: 90%;
+}
+
+@media screen and (max-width: 1005px) {
+  .Wrapper h2 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 570px) {
+  .Wrapper h2 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Wrapper h2 span {
+    color: black;
+  }
+  .Wrapper h2 {
+    color: #8b8b8b;
+    font-size: 35px;
+    text-align: start;
+  }
+  .Wrapper {
+    padding: 5% 4%;
+  }
+  .Wrapper iframe {
+    width: 96%;
+    height: 245px;
+  }
+}

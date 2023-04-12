@@ -1,0 +1,252 @@
+.WrapperBack {
+  background: linear-gradient(90.3deg, #0066cc 0%, #3685e8 99.74%);
+  padding-bottom: 5%;
+}
+
+.h2 {
+  margin: 0;
+}
+
+.Wrapper {
+  background-color: #fafbfc;
+  width: 100%;
+  margin: 0 auto;
+  padding: 5% 0;
+  border-end-end-radius: 30px;
+  border-end-start-radius: 30px;
+}
+.Wrapper h2:hover {
+  text-decoration: underline !important;
+}
+.Wrapper h3:hover {
+  text-decoration: underline !important;
+}
+.Wrapper p:hover {
+  text-decoration: underline !important;
+}
+.Wrapper a:hover {
+  text-decoration: underline !important;
+}
+.Bccards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 3% 8%;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 8%;
+}
+.card {
+  width: 37% !important;
+  border: 1px solid white;
+  background-color: white;
+  padding: 3% 6% 5%;
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px 0px #dedede;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Lastcard {
+  width: 36% !important;
+  border: 1px solid white;
+  background-color: white;
+  padding: 3% 6% 5%;
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px 0px #dedede;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+.buttons {
+  margin-top: 15%;
+}
+.lang {
+  display: flex;
+  justify-content: space-between;
+  color: #656565;
+}
+.lang p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+}
+.h3subtext {
+  font-size: 55px;
+  margin: 0;
+  font-family: "ALS Agrofont";
+  font-style: normal;
+  font-weight: 700;
+}
+.buttons button {
+  border: 1px solid #444444;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+.buttons button:nth-child(2) {
+  margin-left: 2%;
+}
+
+.subtext {
+  color: #005ba3;
+  font-size: 55px;
+  padding-bottom: 5%;
+}
+
+.subtextNone {
+  color: transparent;
+  font-size: 35px;
+  padding-bottom: 5%;
+}
+.headerTexts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0% 8%;
+  margin-top: 3%;
+}
+.headerTexts div {
+  width: 48%;
+}
+.headerTexts h2 {
+  font-size: 55px;
+  margin: 0;
+  padding: 0;
+  font-family: "ALS Agrofont";
+  font-style: normal;
+  font-weight: 700;
+  color: #005ba3;
+}
+.mediaSubtext {
+  display: none;
+}
+.mediaSubtexts {
+  display: none;
+}
+.mediaSubtextt {
+  display: none;
+}
+@media screen and (max-width: 1115px) {
+  .h3subtext {
+    font-size: 30px;
+  }
+  .buttons button {
+    font-size: 14px;
+  }
+  .Wrapper {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 1115px) {
+  .text {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .buttons button:nth-child(2) {
+    margin-left: 3% !important;
+  }
+}
+@media screen and (max-width: 745px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card,
+  .cardEnglish {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cardEnglish {
+    width: 95% !important;
+    margin-top: 5%;
+  }
+  .Bccards {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0% 4.5%;
+  }
+  .card,
+  .Lastcard {
+    width: 95% !important;
+    margin-top: 5%;
+  }
+  .Wrapper {
+    width: 100%;
+  }
+  .lang p {
+    font-size: 11px;
+    font-weight: 100 !important;
+  }
+  .h3subtext {
+    font-size: 35px;
+    margin-top: 3%;
+  }
+  .buttons {
+    display: flex !important;
+  }
+  .buttons button {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .headerTexts {
+    display: none;
+  }
+  .mediaDiv {
+    display: flex !important;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    width: 100%;
+  }
+  .mediaSubtext {
+    display: block;
+    color: #005ba3;
+    font-size: 28px;
+    margin: 8% 0 -2% 0 !important;
+    padding: 0 !important;
+  }
+  .mediaSubtextt {
+    display: block;
+    color: #005ba3;
+    font-size: 28px;
+    margin: 11% 0 2% 0 !important;
+    padding: 0 !important;
+  }
+  .mediaSubtexts {
+    display: block;
+    color: #005ba3;
+    font-size: 28px;
+    margin-top: 6%;
+    margin-bottom: 0%;
+    margin-left: 8%;
+  }
+  .mediaSubtext:nth-child(2) {
+    margin-left: 8% !important;
+  }
+}
+
+@media screen and (max-width: 345px) {
+  .h3subtext {
+    font-size: 25px;
+  }
+}

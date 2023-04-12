@@ -1,0 +1,122 @@
+.WrapperBack {
+  background-image: url(../../../assets/back/back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Wrapper {
+  padding: 5% 0;
+}
+.Wrapper h2:hover {
+  text-decoration: underline !important;
+}
+.Wrapper h3:hover {
+  text-decoration: underline !important;
+}
+.Wrapper p:hover {
+  text-decoration: none !important;
+}
+.Wrapper a span:hover {
+  text-decoration: underline !important;
+}
+.Wrapper form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 60%;
+  background: #ffffffe5 !important;
+  border: 1px solid #ffffffe5;
+  padding: 4%;
+  border-radius: 30px;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.Wrapper form input {
+  padding: 20px 40px;
+  border: 1px solid #818181;
+  outline: none;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.Wrapper input::placeholder {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+}
+
+.Wrapper form button {
+  font-size: 15px;
+  border-radius: 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
+  padding: 20px 70px;
+  background-color: #003650;
+  color: white;
+  border: 1px solid #003650;
+}
+@media screen and (max-width: 1190px) {
+  .Wrapper form {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .Wrapper form {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 840px) {
+  .Wrapper form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
+  .Wrapper input {
+    width: 80%;
+    margin-bottom: 3%;
+  }
+  .Wrapper button {
+    width: 97%;
+    padding: 20px 0px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .Wrapper form {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .Wrapper form {
+    width: 85%;
+    padding: 5%;
+  }
+  .Wrapper input {
+    width: 70%;
+  }
+  .Wrapper form button {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 520px) {
+  .Wrapper form button {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 370px) {
+  .Wrapper form button {
+    width: 95%;
+  }
+}

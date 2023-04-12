@@ -1,0 +1,57 @@
+.wrapperBack {
+  padding: 10% 0 6%;
+  background-image: url(../../../assets/admission/back.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Wrapper h2 {
+  font-size: 50px;
+  text-align: center;
+  font-family: "ALS Agrofont";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.Wrapper h2:hover {
+  text-decoration: underline !important;
+}
+.Wrapper h3:hover {
+  text-decoration: underline !important;
+}
+.Wrapper p:hover {
+  text-decoration: none !important;
+}
+.Wrapper a span:hover {
+  text-decoration: underline !important;
+}
+.Wrapper {
+  background: #004b79e5;
+  width: 60%;
+  padding: 3%;
+  color: white;
+  margin-top: 20%;
+}
+
+@media screen and (max-width: 950px) {
+  .Wrapper {
+    width: 80%;
+  }
+  .Wrapper h2 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Wrapper {
+    width: 94%;
+  }
+  .Wrapper h2 {
+    font-size: 39px;
+    text-align: start;
+  }
+}
+@media screen and (max-width: 370px) {
+  .Wrapper h2 {
+    font-size: 25px;
+  }
+}

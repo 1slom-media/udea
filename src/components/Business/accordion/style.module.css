@@ -1,0 +1,58 @@
+.Wrapper h2 {
+  font-size: 77px;
+  text-align: center;
+  margin-bottom: 7%;
+  letter-spacing: 1px;
+  font-family: "ALS Agrofont";
+  font-style: normal;
+  font-weight: 700;
+}
+
+.Wrapper {
+  padding: 5%;
+}
+.Wrapper h2:hover {
+  text-decoration: underline !important;
+}
+.Wrapper h3:hover {
+  text-decoration: underline !important;
+}
+.Wrapper p:hover {
+  text-decoration: none !important;
+}
+.Wrapper a span:hover {
+  text-decoration: underline !important;
+}
+
+.accordions {
+  width: 100%;
+  margin: 0 auto;
+}
+.Wrapper p {
+  font-size: 30px;
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 400;
+}
+.Wrapper h3 {
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 500px) {
+  .Wrapper h3 {
+    font-size: 16px;
+    /* text-align: center; */
+    /* margin-bottom: 7%; */
+  }
+  .Wrapper p {
+    font-size: 20px;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .Wrapper h2 {
+    font-size: 30px;
+  }
+}

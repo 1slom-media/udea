@@ -1,0 +1,59 @@
+{
+  "Header": {
+    "0": "Dasturlar",
+    "1": "Universitet",
+    "2": "Yangiliklar va voqealar",
+    "3": "Ijtimoiy hayot",
+    "4": "Xalqaro",
+    "5": "BAKARATURA",
+    "6": "ASPIRANSIYAT",
+    "7": "Hozir murojaat qiling"
+  },
+  "Footer": {
+    "0": "Korporativ javobgarlik",
+    "1": "Universitet",
+    "2": "Yangiliklar va voqealar",
+    "3": "Kampus hayoti",
+    "4": "Grantlar",
+    "5": "Xalqaro munosabatlar",
+    "6": "Lorem ipsum",
+    "7": "Lorem ipelit",
+    "8": "Mualliflik huquqi © 2023 UDEA. Barcha huquqlar himoyalangan."
+  },
+  "HomeHero": {
+    "0": "Qabul ochiq: Eng yaxshi ta'lim uchun hozir ariza topshiring!",
+    "1": "Yana",
+    "2": "O‘zbekiston yoshlarining bilim olishi uchun imkoniyatlar yaratish. Imkoniyat yaratish",
+    "3": "Qo'shimcha tadbirlarni ko'rish"
+  },
+  "Categories": {
+    "0": "BAKARATURA",
+    "1": "Tadbirkorlarga daromadli tadbirkorlikni rivojlantirish imkoniyatlarini kengaytirish",
+    "2": "Agrobiznes va investitsiya faoliyati",
+    "3": "Moliyaviy rejalashtirish, savdo va investitsiya strategiyalari asoslarini o'rganing",
+    "4": "Moliya va moliyaviy texnologiyalar",
+    "5": "aspirantura",
+    "6": "Strategiyalar, operatsiyalar va samaradorlik",
+    "7": "Tijorat banklari boshqaruvi"
+  },
+  "Graduate": {
+    "0": "Oʻzbekistonda jahon darajasidagi Buyuk Britaniya diplomiga ega boʻling"
+  },
+  "Study": {
+    "0": "O'zbekistonda o'qish",
+    "1": "va tugatgan",
+    "2": "daraja",
+    "3": "Koventri universiteti",
+    "4": "Sifatli o'qitish va o'qitish, talabalarning ajoyib qoniqishini ta'minlash.",
+    "5": "Koventri universiteti Buyuk Britaniyada 38-o'rinda",
+    "6": "Guardian University Guide 2022",
+    "7": "5 QS yulduzli umumiy reyting",
+    "8": "QS Stars University Ratings",
+    "9": "Yil universiteti uchun qisqa ro'yxat",
+    "10": "The Times and Sunday Times Good University Guide 2021",
+    "11": "Xalqaro istiqbol bo'yicha dunyoning eng yaxshi 100 taligi",
+    "12": "Times Higher Education World University Rankings 2022",
+    "13": "Koventri universiteti haqida qarang",
+    "14": "Buyuk Britaniyada"
+  }
+}

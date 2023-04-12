@@ -1,0 +1,112 @@
+.WrapperBack {
+  background-image: url(../../../assets/business/back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 0 5%;
+}
+.Wrapper {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.Wrapper h2:hover {
+  text-decoration: underline !important;
+}
+.Wrapper h3:hover {
+  text-decoration: underline !important;
+}
+.Wrapper p:hover {
+  text-decoration: none !important;
+}
+.Wrapper a span:hover {
+  text-decoration: underline !important;
+}
+
+.box {
+  background: #001c26cc;
+  width: 400px;
+  height: 100%;
+  padding: 5% 5% 7%;
+}
+.box h2 {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 4%;
+  font-family: "ALS Agrofont";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.box ul li h3 {
+  color: white;
+  font-size: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+}
+.box ul li p {
+  color: white;
+  margin: 0 0% 0% 3% !important;
+  font-size: 25px;
+}
+.box ul li {
+  display: flex;
+  align-items: flex-start !important;
+  margin-top: 8%;
+  line-height: 30px;
+}
+.Texts {
+  width: 60%;
+}
+.Texts {
+  width: 50%;
+}
+.Texts p {
+  font-size: 30px;
+  background: #004b79e5;
+  padding: 6%;
+  font-family: "ALS Agrofont";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 0;
+  color: white;
+}
+@media screen and (max-width: 1150px) {
+  .Texts h2 {
+    font-size: 35px;
+  }
+  .Texts p {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .box {
+    width: 400px;
+  }
+  .box p {
+    font-size: 16px !important;
+  }
+}
+@media screen and (max-width: 835px) {
+  .Wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .Texts {
+    width: 100%;
+    padding: 5% 0;
+    text-align: center;
+  }
+  .Texts h2 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .box {
+    width: 90%;
+  }
+  .Texts {
+    padding: 0;
+  }
+}

@@ -1,0 +1,251 @@
+.WrapperBack {
+  background: #fafbfc;
+  padding: 5% 0;
+}
+
+.Wrapper h2:hover {
+  text-decoration: underline !important;
+}
+.Wrapper h3:hover {
+  text-decoration: underline !important;
+}
+.Wrapper p:hover {
+  text-decoration: underline !important;
+}
+.Wrapper a:hover {
+  text-decoration: underline !important;
+}
+.WrapperBack h2 {
+  text-align: center;
+  font-size: 70px;
+  padding-bottom: 3%;
+  width: 70%;
+  margin: 0 auto;
+  font-family: "ALS Agrofont";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+.bigCards {
+  width: 55%;
+  background-color: white;
+  border-radius: 30px;
+}
+.bigCards img {
+  width: 100%;
+  border-start-end-radius: 30px;
+  border-start-start-radius: 30px;
+}
+.miniCards {
+  width: 43%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 30px;
+}
+.imgDiv {
+  width: 100%;
+  height: 250px;
+  background-color: #ffcb50;
+  text-align: center;
+  border-start-end-radius: 30px;
+  border-start-start-radius: 30px;
+}
+.imgDivs {
+  background-color: #925841;
+  width: 100%;
+  height: 280px;
+  text-align: center;
+  border-start-end-radius: 30px;
+  border-start-start-radius: 30px;
+}
+.miniCards img {
+  width: 200px;
+  height: 200px;
+}
+.card:nth-child(2) {
+  margin-top: 5%;
+}
+.miniCards .card {
+  background-color: white;
+  border-radius: 30px;
+}
+.card img {
+  border-start-end-radius: 30px;
+  border-start-start-radius: 30px;
+}
+.subtext {
+  font-size: 45px;
+  padding: 6% 0% 7% 6%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+}
+.h3Sub {
+  font-size: 33px;
+  font-weight: 400;
+  padding: 6% 0% 7% 7%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+}
+
+.bottonCards {
+  display: flex;
+  margin-top: 2%;
+  justify-content: space-between;
+}
+.cardd {
+  width: 49%;
+  background-color: white;
+  border-end-end-radius: 30px;
+  border-end-start-radius: 30px;
+}
+.bottonCards img {
+  width: 100%;
+  height: 500px;
+  border-start-end-radius: 30px;
+  border-start-start-radius: 30px;
+}
+.cardd h3 {
+  font-size: 41px;
+  padding: 7% 0% 8% 7%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 980px) {
+  .cardd h3 {
+    font-size: 25px;
+  }
+  .Wrapper h3 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .miniCards img {
+    width: 150px;
+    height: 150px;
+  }
+  .imgDiv,
+  .imgDivs {
+    height: 200px;
+  }
+  .cards h3 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 875px) {
+  .cards,
+  .miniCards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .card,
+  .bigCards {
+    width: 70%;
+  }
+  .miniCards {
+    width: 100%;
+    margin-top: 5%;
+  }
+  .bottonCards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .cardd {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Wrapper h2 {
+    font-size: 25px;
+    width: 100%;
+  }
+  .card,
+  .bigCards {
+    width: 90%;
+  }
+  .cardd {
+    width: 90%;
+  }
+  .card img {
+    display: none;
+  }
+  .bigCards img {
+    display: none;
+  }
+  .cardd img {
+    display: none;
+  }
+  .imgDivs {
+    display: none;
+  }
+  .imgDiv {
+    display: none;
+  }
+  .bigCards {
+    background-image: url(../../../assets/condition/man.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .textDiv {
+    background: #004b79cc;
+    color: white;
+    margin: 60% 0 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .subtext {
+    font-size: 28px !important;
+  }
+  .card:nth-child(1) {
+    background: url(../../../assets/condition/meda.png), #ffcb50;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .card:nth-child(2) {
+    background: url(../../../assets/condition/chemodan.png), #925841;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    margin: 5% 0 0 0;
+    background-position: top;
+  }
+  .h3Sub {
+    font-size: 28px !important;
+  }
+
+  .cardd:nth-child(1) {
+    background: url(../../../assets/condition/build.png), #925841;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40px;
+  }
+
+  .cardd:nth-child(2) {
+    background: url(../../../assets/condition/comp.png), #925841;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40px;
+    margin-top: 5%;
+  }
+  .cardd div {
+    background: #004b79cc;
+    color: white;
+    margin: 60% 0 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+}

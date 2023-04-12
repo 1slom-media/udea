@@ -1,0 +1,60 @@
+.text h2 {
+  font-size: 77px;
+  font-family: "ALS Agrofont";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1px ;
+}
+
+.Wrapper {
+  padding-top: 15%;
+}
+
+.text {
+  text-align: center;
+  border: 1px solid #fafbfc;
+  border-start-end-radius: 30px;
+  border-start-start-radius: 30px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fafbfc;
+  padding-top: 5%;
+}
+
+.Wrapper h2:hover {
+  text-decoration: underline !important;
+}
+.Wrapper h3:hover {
+  text-decoration: underline !important;
+}
+.Wrapper p:hover {
+  text-decoration: underline !important;
+}
+.Wrapper a:hover {
+  text-decoration: underline !important;
+}
+.WrapperBack {
+  background-image: url(../../../assets/find/back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 850px) {
+  .text h2 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .text {
+    width: 99.5%;
+  }
+  .text h2 {
+    font-size: 39px;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  .text h2 {
+    font-size: 30px;
+  }
+}

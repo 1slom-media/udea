@@ -1,0 +1,146 @@
+.WrapperBack {
+  background: #fafbfc;
+  padding: 5% 0;
+}
+.bigCard {
+  /* width: 93%; */
+  background-color: white;
+  padding: 3%;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+.Wrapper h2:hover {
+  text-decoration: underline !important;
+}
+.Wrapper h3:hover {
+  text-decoration: underline !important;
+}
+.Wrapper p:hover {
+  text-decoration: none !important;
+}
+.Wrapper a span:hover {
+  text-decoration: underline !important;
+}
+.bigCard h2 {
+  font-size: 66px;
+  font-family: "ALS Agrofont";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.subtext {
+  font-size: 36px;
+  margin: 4% 0;
+  line-height: 50px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+}
+
+.subtextP {
+  font-size: 36px;
+  margin-top: 5%;
+  line-height: 50px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+}
+
+.avaregeCards {
+  width: 100% !important;
+  margin: 3% auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 42.5%;
+  padding: 3%;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.card h2 {
+  font-size: 55px;
+  font-family: "ALS Agrofont";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.card p {
+  font-size: 30px;
+  line-height: 36px;
+  line-height: 50px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  width: 90%;
+}
+.bottomCard {
+  /* width: 100%; */
+  background-color: white;
+  padding: 2.5%;
+  margin: 3% auto 0;
+  border-radius: 30px;
+}
+
+.bottomCard p {
+  font-size: 44px;
+  line-height: 50px;
+  color: #a9b0b8;
+  font-family: "ALS Agrofont";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.bottomCard p span:nth-child(1) {
+  color: black;
+}
+
+.bottomCard p span:nth-child(2) {
+  color: #3685e8;
+}
+
+@media screen and (max-width: 500px) {
+  .bigCard {
+    width: 90% !important;
+  }
+  .bigCard h2 {
+    font-size: 28px;
+  }
+  .bigCard p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .avaregeCards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    width: 90%;
+    margin-bottom: 3%;
+  }
+  .card h2 {
+    font-size: 28px;
+  }
+  .card p {
+    font-size: 18px;
+    line-height: 30px;
+    width: 95%;
+  }
+  .bottomCard {
+    width: 90%;
+  }
+  .bottomCard p {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .subtext {
+    width: 95%;
+  }
+  .subtextP {
+    width: 95%;
+  }
+}

@@ -1,0 +1,65 @@
+.wrapperBack {
+  background-image: url(../../../assets/belong/be.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5% 0;
+}
+
+.Wrapper {
+  background: #004b79e5;
+  width: 60%;
+  padding: 3%;
+  color: white;
+  margin-top: 20%;
+}
+.Wrapper h2:hover {
+  text-decoration: underline !important;
+}
+.Wrapper h3:hover {
+  text-decoration: underline !important;
+}
+.Wrapper p:hover {
+  text-decoration: underline !important;
+}
+.Wrapper a:hover {
+  text-decoration: underline !important;
+}
+.Wrapper h2 {
+  font-family: "ALS Agrofont";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 75px;
+}
+
+.Wrapper p {
+  font-size: 30px;
+  /* width: 60%; */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 955px) {
+  .Wrapper {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .Wrapper {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Wrapper h2 {
+    font-size: 39px;
+  }
+  .Wrapper P {
+    font-size: 18px;
+  }
+  .Wrapper {
+    width: 94%;
+    padding: 5% 3%;
+  }
+}

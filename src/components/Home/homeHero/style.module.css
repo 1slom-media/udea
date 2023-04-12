@@ -1,0 +1,69 @@
+.open {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  padding: 5% 0;
+}
+.open button {
+  font-size: 30px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+  width: 320px;
+}
+.open button .bx {
+  border: 1px solid white;
+  color: #0097a9;
+  border-radius: 50%;
+  background-color: white;
+  font-size: 40px;
+  padding: 8px 8px 0;
+}
+
+.subtext {
+  border: 1px solid white;
+  color: #0097a9;
+  border-radius: 50%;
+  background-color: white;
+  width: 50px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  font-size: 40px;
+  margin-left: auto;
+  margin-bottom: 2%;
+}
+.Link {
+  color: white !important;
+  background-color: transparent !important;
+  text-decoration: none;
+}
+.Links {
+  color: transparent !important;
+  background-color: transparent !important;
+  text-decoration: none;
+}
+.btn span {
+  color: transparent !important;
+  border: none !important;
+  background-color: transparent !important;
+}
+
+.textSpan {
+  font-family: ALS Agrofont;
+  font-weight: 700;
+}
+@media screen and (max-width: 500px) {
+  .textSpan {
+    display: none;
+  }
+  .open button {
+    width: 100px;
+  }
+}

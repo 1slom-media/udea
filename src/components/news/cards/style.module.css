@@ -1,0 +1,308 @@
+.WrapperBack {
+  background-color: #f6f6f6;
+  padding: 5% 0;
+}
+
+.bigcards {
+  display: flex;
+  box-shadow: 0px 0px 30px 0px #0000000d;
+  border-radius: 40px;
+}
+.bigcards .Texts {
+  background-color: white;
+  padding: 3%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-end-end-radius: 40px;
+  border-start-end-radius: 40px;
+}
+.Wrapper h2:hover {
+  text-decoration: underline !important;
+}
+.Wrapper h3 {
+  font-family: "ALS Agrofont";
+  font-style: normal;
+  font-weight: 700;
+}
+.Wrapper h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+}
+.Wrapper h3:hover {
+  text-decoration: underline !important;
+}
+.Wrapper p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+}
+.Wrapper p:hover {
+  text-decoration: none !important;
+}
+.Wrapper a span:hover {
+  text-decoration: underline !important;
+}
+.bigcards img {
+  width: 60%;
+  /* height: 100% !important ; */
+}
+.HeaderTexts p {
+  margin: 0;
+  color: #0066cc;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.HeaderTexts h3 {
+  font-size: 55px;
+  font-weight: bold;
+  margin: 2% 0;
+}
+
+.Texts .date {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+.date p,
+h3 {
+  margin: 0;
+}
+.date h3 {
+  font-size: 28px;
+}
+.date p {
+  color: #7e7e7e;
+  font-size: 24px;
+}
+.avaregeCards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+.avaregeCards .card {
+  width: 48.5%;
+  background-color: white;
+  border-radius: 40px;
+}
+.card img {
+  width: 100%;
+  height: 300px;
+}
+.card .texts {
+  padding: 6%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.texts .cardtexts p {
+  margin: 0 0 2% 0;
+  color: #0066cc;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.cardtexts h3 {
+  font-size: 44px;
+}
+
+.cardDate {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8%;
+}
+.cardDate p {
+  margin: 0;
+  color: #7e7e7e;
+  font-size: 22px;
+}
+.cardDate h3 {
+  font-size: 26px;
+}
+
+.miniCards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+  width: 100%;
+}
+.miniCards .minicard {
+  width: 31.5%;
+}
+.minicard img {
+  width: 100%;
+  height: 300px;
+}
+.minicard .mtexts {
+  background-color: white;
+  /* padding: 5%; */
+  border-radius: 40px;
+}
+.mtexts p {
+  margin: 0;
+}
+.mcardtexts,
+.mcardDate {
+  padding: 10%;
+}
+.mcardtexts p {
+  margin: 0 0 2% 0;
+  color: #0066cc;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.mcardtexts h3 {
+  font-size: 44px;
+}
+.mcardDate {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mcardDate h3 {
+  font-size: 26px;
+}
+.mcardDate p {
+  margin: 0;
+  color: #7e7e7e;
+  font-size: 22px;
+}
+.media {
+  display: none;
+}
+.MediaCards {
+  display: none;
+}
+.mediaCard {
+  width: 90% !important;
+  margin: 0 auto;
+  border-radius: 30px !important;
+}
+.mediaCard:nth-child(2) {
+  margin-top: 4%;
+  border-radius: 30px !important;
+}
+.MediaTexts {
+  background-color: white;
+  padding: 5%;
+  border-end-end-radius: 30px;
+  border-end-start-radius: 30px;
+}
+.MediaHeaderTexts p {
+  color: #0066cc;
+  font-size: 15px;
+}
+.MediaHeaderTexts h3 {
+  font-size: 23px !important;
+}
+.Mediadate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4%;
+}
+.Mediadate h3 {
+  font-size: 14px !important;
+}
+.Mediadate p {
+  font-size: 11px;
+  color: #7e7e7e;
+}
+@media screen and (max-width: 1175px) {
+  .mcardDate h3 {
+    font-size: 19px !important;
+  }
+}
+@media screen and (max-width: 1015px) {
+  .bigcards img {
+    width: 60%;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 875px) {
+  .miniCards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .mtexts {
+    border-radius: 70px !important;
+  }
+  .minicard {
+    margin-bottom: 4%;
+    width: 90% !important;
+  }
+  .minicard img {
+    height: 400px;
+  }
+  .avaregeCards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .avaregeCards .card {
+    margin-bottom: 4%;
+    width: 90% !important;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .bigcards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0px;
+    background-color: transparent;
+    justify-content: center;
+  }
+  .comp {
+    display: none;
+  }
+  .media {
+    display: block;
+    width: 96% !important;
+    height: 400px;
+  }
+  .Texts {
+    width: 90% !important;
+    border-end-start-radius: 40px;
+    border-start-end-radius: 0px !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .bigcards {
+    display: none;
+  }
+  .avaregeCards {
+    display: none;
+  }
+  .miniCards {
+    display: none;
+  }
+  .MediaCards {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .WrapperBack {
+    padding: 10% 0;
+  }
+  .media {
+    height: 250px;
+  }
+}

@@ -1,0 +1,120 @@
+.WrapperBack {
+  background-image: url(../../../assets/footer/back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10% 0;
+}
+
+.Wrapper {
+  background: rgba(255, 255, 255, 0.9);
+  width: 80%;
+  border-radius: 30px;
+  margin: 0 auto;
+  padding: 4%;
+}
+.Wrapper h2:hover {
+  text-decoration: underline !important;
+}
+.Wrapper h3:hover {
+  text-decoration: underline !important;
+}
+.Wrapper p:hover {
+  text-decoration: underline !important;
+}
+.Wrapper a:hover {
+  text-decoration: underline !important;
+}
+
+.request {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.texts {
+  width: 60%;
+}
+.texts h3 {
+  font-size: 40px;
+  margin: 0 auto;
+  font-family: "ALS Agrofont";
+  font-style: normal;
+  font-weight: 700;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input::placeholder {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  color: #818181;
+}
+
+.request form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  /* border: 1px solid black; */
+}
+
+.request form input {
+  border: 1px solid #bebebe;
+  padding: 17px 30px 17px;
+  color:  #818181;
+  font-size: 20px;
+  background-color: transparent;
+  outline: none;
+  border-radius: 10px;
+  margin-bottom: 5%;
+}
+
+.request form button {
+  background-color: #003650;
+  color: white;
+  padding: 15px 25px;
+  border: 1px solid #003650;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 940px) {
+  .request {
+    display: flex;
+    flex-direction: column;
+  }
+  .request form {
+    width: 100%;
+  }
+  .request form input {
+    margin-bottom: 2%;
+  }
+  .texts {
+    width: 100%;
+    margin-bottom: 2%;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .texts h3 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .texts h3 {
+    font-size: 28px;
+    margin-bottom: 5%;
+  }
+  .request {
+    padding: 5%;
+  }
+  .request input{
+  font-size: 15px !important;
+  }
+}

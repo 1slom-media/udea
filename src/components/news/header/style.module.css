@@ -1,0 +1,115 @@
+.WrapperBack {
+  background-image: url("../../../assets/newsHeader/back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  padding-top: 20%;
+}
+.WrapperTexts {
+  background: #004b79e5;
+  padding: 3% 0;
+}
+.Wrapper h2:hover {
+  text-decoration: underline !important;
+}
+.Wrapper h3:hover {
+  text-decoration: underline !important;
+}
+.Wrapper p:hover {
+  text-decoration: none !important;
+}
+.Wrapper a span:hover {
+  text-decoration: underline !important;
+}
+.wrapper {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  color: white;
+}
+.date {
+  display: flex;
+  align-items: center;
+}
+.date p {
+  padding-left: 5%;
+  font-size: 28px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  color: #b6b6b6;
+  margin: 0;
+}
+.date h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  margin: 0;
+}
+.texts {
+  width: 80%;
+}
+.subtext {
+  font-size: 77px;
+  letter-spacing: 1px;
+  font-family: "ALS Agrofont";
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 2%;
+}
+
+.wrapper button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-size: 28px;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 980px) {
+  .texts {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 670px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .wrapper button {
+    margin-top: 3%;
+  }
+  .texts {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .subtext {
+    font-size: 39px;
+    margin-top: 3%;
+  }
+  .date p,
+  h3 {
+    margin: 0% 0;
+  }
+  .date h3 {
+    font-size: 18px;
+  }
+  .date p {
+    font-size: 14px;
+  }
+  .wrapper {
+    padding: 5% 3%;
+  }
+  .wrapper button {
+    font-size: 14px;
+    margin-top: 7%;
+  }
+}

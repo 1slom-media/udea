@@ -1,0 +1,306 @@
+.WrapperBack {
+  background: #fafbfc;
+  padding: 5% 0;
+}
+.BigCard {
+  background-color: white;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+  width: 90%;
+  margin: 0 auto;
+  padding: 5%;
+  border-radius: 30px;
+}
+.Wrapper h2:hover {
+  text-decoration: underline !important;
+}
+.Wrapper h3:hover {
+  text-decoration: underline !important;
+}
+.Wrapper p:hover {
+  text-decoration: none !important;
+}
+.Wrapper a span:hover {
+  text-decoration: underline !important;
+}
+
+.requir {
+  background-color: white;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+  width: 90% !important;
+
+  margin: 0 auto;
+  padding: 5%;
+  border-radius: 30px;
+  margin-top: 4% !important;
+}
+.requir h3 {
+  font-size: 66px;
+  font-family: "ALS Agrofont";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 0;
+}
+.requir p {
+  font-size: 36px;
+  margin: 3% 0 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 50px;
+}
+.BigCard h2 {
+  font-size: 66px;
+  width: 90%;
+  padding-bottom: 2%;
+  letter-spacing: 1px;
+  font-family: "ALS Agrofont";
+  font-style: normal;
+  font-weight: 700;
+}
+
+.dates {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.subtext {
+  font-size: 25px !important;
+  letter-spacing: 1px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-weight: 500;
+  color: #005ba3;
+}
+
+.dates h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+}
+.winter h3 {
+  color: #0066cc;
+  font-size: 56px;
+  margin: 2% 0;
+}
+.winter p {
+  font-size: 36px;
+  margin: 5% 0;
+}
+.dates {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+}
+.winters h3 {
+  color: #0066cc;
+  font-size: 56px;
+  margin: 2% 0;
+}
+.winters {
+  padding-bottom: 2%;
+}
+.winters p {
+  font-size: 36px;
+  margin: 5% 0;
+}
+.winters {
+  border-bottom: 1px solid black;
+}
+.dectriction {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 4% auto 0;
+}
+.eligibity,
+.documants {
+  background-color: white;
+  border-radius: 30px;
+  width: 39%;
+  padding: 4.5%;
+}
+.documants p {
+  font-size: 36px;
+  line-height: 50px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+}
+.eligibity p {
+  font-size: 36px;
+  line-height: 50px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+}
+.eligibity,
+.documants h3 {
+  font-size: 55px;
+  font-family: "ALS Agrofont";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.buttons {
+  /* width: 80%; */
+  margin-top: 4% !important;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.buttons button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #0066cc;
+  width: 48%;
+  padding: 2% 5%;
+  font-family: "ALS Agrofont";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  border-radius: 20px;
+  font-weight: bold;
+  border: 1px solid #fafbfc;
+  background: #e5eeff;
+}
+
+@media screen and (max-width: 1040px) {
+  .buttons button {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .BigCard h2 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 920px) {
+  .BigCard,
+  .requir,
+  .dates {
+    width: 90%;
+  }
+  .dectriction {
+    width: 99%;
+  }
+  .eligibity,
+  .documants {
+    width: 40% !important;
+  }
+  .BigCard h2 {
+    font-size: 30px;
+  }
+  .dates h3 {
+    font-size: 30px;
+  }
+  .dates p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .dectriction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .eligibity,
+  .documants {
+    width: 90% !important;
+  }
+  .buttons {
+    width: 99%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .dates h3 {
+    font-size: 20px !important;
+  }
+  .buttons button {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .dates {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Wrapper h2 {
+    font-size: 35px;
+    margin-bottom: 4%;
+  }
+  .subtext {
+    font-size: 15px !important;
+  }
+  .dates h3 {
+    font-size: 23px !important;
+    margin-top: 3%;
+  }
+  .dates p {
+    font-size: 18px;
+  }
+  .mar {
+    margin-top: 5%;
+  }
+  .winters {
+    padding-bottom: 6%;
+  }
+  .winter {
+    margin-top: 7%;
+  }
+  .dectriction h3 {
+    font-size: 28px;
+    letter-spacing: 1px;
+  }
+  .dectriction p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .requir h3 {
+    font-size: 28px;
+  }
+  .requir p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .BigCard {
+    width: 85% !important;
+  }
+  .requir {
+    width: 85% !important;
+  }
+  .dectriction {
+    width: 95% !important;
+  }
+  .documants {
+    margin-top: 4%;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+  }
+  .buttons button {
+    width: 95%;
+    border-radius: 30px;
+    font-size: 22px;
+    margin-bottom: 4%;
+  }
+}
